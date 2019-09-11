@@ -1,4 +1,4 @@
-package com.redoy.junit;
+package com.redoy.junit.singleTest;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

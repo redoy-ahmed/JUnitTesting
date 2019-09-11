@@ -1,5 +1,5 @@
 
-package com.redoy.junit;
+package com.redoy.junit.singleTest;
 
 import org.junit.*;
 
