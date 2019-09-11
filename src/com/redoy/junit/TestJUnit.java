@@ -2,6 +2,7 @@
 package com.redoy.junit;
 
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -12,6 +13,11 @@ public class TestJUnit {
 
     int a, b;
     String c;
+
+    @BeforeClass
+    public static void setup(){
+        System.out.println("Before Class...");
+    }
 
     @Before
     public void initialization() {
